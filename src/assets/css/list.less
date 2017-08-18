@@ -1,0 +1,320 @@
+@r:20rem;
+
+header{
+  height: 60/@r;
+  background: #ea413c;
+  line-height: 60/@r;
+  padding: 0 20/@r;
+  span{
+    color: #fff;
+    font-weight:normal;
+  }
+}
+#wrap{
+  position: absolute;
+  left: 0;
+  top: 60/@r;
+  bottom: 66/@r;
+  width: 100%;
+  overflow: hidden;
+  .picTab{
+    position: relative;
+    width:20rem;
+    overflow: hidden;
+    .pics{
+      width: 400%;
+      li{
+        float: left;
+        width: 20rem;
+        position: relative;
+        p{
+          position: absolute;
+          bottom: 10/@r;
+          left: 0;
+          width: 100%;
+          color: #fff;
+          text-indent: 20/@r;
+          font-size:17/@r;
+        }
+        img{
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+    #navs{
+      z-index: 22;
+      position: absolute;
+      right: 0;
+      text-align: right;
+      padding-right: 16/@r;
+      bottom: 22/@r;
+      width: 20rem;
+      height: 12px;
+      a{
+        display: inline-block;
+        margin: 0 2/@r;
+        width: 5/@r;
+        height: 5/@r;
+        background: #c9a372;
+        border-radius: 6px;
+        transition: .5s;
+      }
+      a.active{
+        background: #fff;
+        width: 6/@r;
+        height: 6/@r;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+
+.newCard{
+  background: #fff;
+  min-height: 100/@r;
+  padding: 10/@r;
+  border-bottom: 1px solid #e8e8e8;
+  a{
+    display: inline-block;
+    width: 100%;
+    height: 100/@r;
+    .imgOne{
+      float: left;
+      height: 90/@r;
+      width: 114/@r;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .Description{
+      width: 250/@r;
+      height: 90/@r;
+      float: right;
+      p{
+        font-size:18/@r;
+        color:#343434;
+      }
+      .Thread{
+        width: 100%;
+        padding-top: 20/@r;
+        font-size:16/@r;
+        color: #a1a1a1;
+        font-weight: normal;
+        .time{
+          padding-left: 10/@r;
+        }
+        .addre{
+          float: left;
+        }
+        .threads{
+          float: right;
+        }
+      }
+    }
+  }
+
+}
+.newCard:nth-of-type(1){
+  margin-bottom: 8/@r;
+}
+.head{
+  height: 40/@r;
+  line-height:40/@r;
+  background: #fff;
+  padding-left: 13/@r;
+  h4{
+    color: #000;
+    margin: 0;
+    padding: 0;
+    i{
+      color: red;
+      padding-right: 10/@r;
+    }
+  }
+
+}
+a{
+  text-decoration: none;
+}
+.card{
+  background: #fff;
+  padding: 10/@r;
+  border-bottom: 1px solid #e8e8e8;
+  a{
+    display: inline-block;
+    width: 20rem;
+    h3{
+      font-weight: normal;
+      margin: 0;
+      padding: 0;
+      padding: 10/@r 0;
+      font-size:18/@r;
+      color:#343434;
+    }
+    .imgs{
+      height: 90/@r;
+      img{
+        margin-left: 10/@r;
+        float: left;
+        height: 90/@r;
+        width: 114/@r;
+      }
+
+    }
+    .Thread{
+      height: 30/@r;
+      padding-top:6/@r;
+      font-size:16/@r;
+      color: #a1a1a1;
+      .addre{
+        float: left;
+        padding-left: 10/@r;
+      }
+      .threads{
+        padding-right: 30/@r;
+        text-align: right;
+        width: 130/@r;
+        float: right;
+        .logo{
+          color: red;
+          background: #f4dfde;
+          //border:1px solid #f4dfde;
+          width: 100/@r;
+          border-radius: 5px;
+          padding: 2px;
+          margin-right: 2px;
+          span{
+            padding-right: 2px;
+          }
+        }
+      }
+    }
+  }
+}
+.demo{
+  background: #fff;
+  min-height: 100/@r;
+  padding: 10/@r;
+  border-bottom: 1px solid #e8e8e8;
+  a{
+    display: inline-block;
+    width: 100%;
+    height: 100/@r;
+    .left{
+      width: 114/@r;
+      float: left;
+      img{
+        width: 100%;
+        height: 100/@r;
+      }
+    }
+    .Description{
+      width: 250/@r;
+      height: 90/@r;
+      float: right;
+      p{
+        font-size:18/@r;
+        color:#343434;
+      }
+      .Thread{
+        width: 100%;
+        padding-top: 20/@r;
+        font-size:16/@r;
+        color: #a1a1a1;
+        font-weight: normal;
+        .time{
+          padding-left: 10/@r;
+        }
+        .addre{
+          float: left;
+        }
+        .threads{
+          float: right;
+        }
+      }
+    }
+
+  }
+}
+
+
+//直播css
+.Subscription{
+  width: 100%;
+  height: 80/@r;
+  background: #fff;
+  box-sizing: border-box;
+  li{
+    float: left;
+    width: 9.8rem;
+    height: 100%;
+    text-align: center;
+    .icon{
+      padding-top: 24/@r;
+      padding-left: 30/@r;
+    }
+    span{
+      float: left;
+    }
+    .text{
+      padding-top: 19/@r;
+      padding-left: 10/@r;
+      text-align: left;
+      float: left;
+      span{
+        font-size:14/@r;
+      }
+      p{
+        font-size:12/@r;
+      }
+    }
+  }
+  .line{
+    margin-top: 15/@r;
+    display: inline-block;
+    float: left;
+    width: 1px;
+    height: 30/@r;
+    background: #e4e4e4;
+  }
+
+}
+.img{
+  position: relative;
+  height:160/@r;
+  margin-bottom: 10/@r;
+  .title{
+    display: inline-block;
+    position: absolute;
+    bottom:5/@r;
+    padding-left: 10/@r;
+    left: 0;
+    color: #fff;
+    font-size:18/@r;
+  }
+  .num{
+    position: absolute;
+    left:50/@r;
+    bottom: 30/@r;
+    font-size:12/@r;
+    color: #fff;
+    border:1px solid #fff;
+    padding: 1/@r 2/@r;
+  }
+  .zhibo{
+    position: absolute;
+    bottom: 30/@r;
+    left:10/@r;
+    font-size:16/@r;
+    color: #fff;
+    padding: 1/@r 2/@r;
+    border-radius: 5/@r;
+    background: #f60;
+  }
+  img{
+    width: 100%;
+    height:100%;
+  }
+}

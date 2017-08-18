@@ -1,0 +1,82 @@
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+}
+em {
+  font-style: normal;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+p,
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+a,
+input {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+body,
+html {
+  position: relative;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3.3rem;
+  width: 100%;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+}
+footer li {
+  float: left;
+  width: 4rem;
+  height: 100%;
+  padding-top: 0.3rem;
+  text-align: center;
+}
+footer li p {
+  color: #aaaaaa;
+  font-size: 0.75rem;
+}
+footer li .all {
+  font-size: 1.5rem;
+  color: #aaaaaa;
+}
+footer li.active p {
+  color: #fd3b46;
+  font-size: 0.75rem;
+}
+footer li.active .all {
+  font-size: 1.5rem;
+  color: #fd3b46;
+}

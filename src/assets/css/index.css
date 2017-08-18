@@ -1,0 +1,300 @@
+header {
+  width: 100%;
+  height: 2.8rem;
+  background: #ea413c;
+}
+header .icon_wy {
+  padding-top: 0.75rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.1rem;
+  width: 2.8rem;
+  height: 1.5rem;
+}
+header .icon_wy a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-size: cover;
+  background-image: url("../img/icon_wy.jpg");
+}
+header .search {
+  position: absolute;
+  right: 6.5rem;
+  top: 0.6rem;
+  width: 1.9rem;
+  height: 1.65rem;
+}
+header .search a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-size: cover;
+  background-image: url("../img/search.jpg");
+}
+header .pay {
+  width: 3rem;
+  height: 2.1rem;
+  position: absolute;
+  right: 1.1rem;
+  top: 0.6rem;
+}
+header .pay a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-size: cover;
+  background: url("../img/pay.jpg") no-repeat;
+}
+.allWrap {
+  width: 100%;
+  height: 2.5rem;
+  background: #fafafa;
+}
+.allWrap .navWrap {
+  width: 100%;
+  height: 100%;
+  padding-left: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.allWrap .navWrap .navs {
+  position: absolute;
+  height: 100%;
+  z-index: 2;
+}
+.allWrap .navWrap .navs .item_nav {
+  width: 3.4rem;
+  height: 2.3rem;
+  float: left;
+  line-height: 2rem;
+  text-align: center;
+}
+.allWrap .navWrap .navs .item_nav span {
+  padding-top: 0.2rem;
+  display: inline-block;
+  width: 100%;
+}
+.allWrap .navWrap .navs .item_nav.active {
+  border-bottom: 0.2rem solid #ff0000;
+}
+.allWrap .navWrap .navs .item_nav.active span {
+  color: red;
+}
+.allWrap .navWrap .downIcon {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: -0.2rem;
+  width: 3.5rem;
+  height: 2.5rem;
+  right: 0rem;
+  z-index: 32;
+}
+.allWrap .navWrap .downIcon span {
+  width: 3rem;
+  background-image: url("../img/down.jpg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100%;
+}
+#wrap {
+  position: absolute;
+  left: 0;
+  top: 5.6rem;
+  bottom: 3.3rem;
+  width: 100%;
+  overflow: hidden;
+}
+#wrap #list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#wrap #list li {
+  font: 16px/30px "宋体";
+  text-indent: 20px;
+  border-bottom: 1px solid #000;
+}
+#wrap .picTab {
+  position: relative;
+  width: 20rem;
+  overflow: hidden;
+}
+#wrap .picTab .pics {
+  width: 400%;
+}
+#wrap .picTab .pics li {
+  float: left;
+  width: 20rem;
+  position: relative;
+}
+#wrap .picTab .pics li p {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-indent: 1rem;
+  font-size: 0.85rem;
+}
+#wrap .picTab .pics li img {
+  width: 100%;
+  display: block;
+}
+#wrap .picTab #navs {
+  z-index: 22;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  padding-right: 0.8rem;
+  bottom: 1.1rem;
+  width: 20rem;
+  height: 12px;
+}
+#wrap .picTab #navs a {
+  display: inline-block;
+  margin: 0 0.1rem;
+  width: 0.25rem;
+  height: 0.25rem;
+  background: #c9a372;
+  border-radius: 6px;
+  transition: .5s;
+}
+#wrap .picTab #navs a.active {
+  background: #fff;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 6px;
+}
+.card {
+  padding: 0.5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+.card a {
+  display: inline-block;
+  width: 20rem;
+}
+.card a h3 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #343434;
+}
+.card a .imgs {
+  height: 4.5rem;
+}
+.card a .imgs img {
+  margin-left: 0.5rem;
+  float: left;
+  height: 4.5rem;
+  width: 5.7rem;
+}
+.card a .Thread {
+  height: 1.5rem;
+  padding-top: 0.3rem;
+  font-size: 0.8rem;
+  color: #a1a1a1;
+}
+.card a .Thread .addre {
+  float: left;
+  padding-left: 0.5rem;
+}
+.card a .Thread .threads {
+  text-align: right;
+  width: 6.5rem;
+  float: right;
+  padding-right: 1.5rem;
+}
+.card a .Thread .threads .logo {
+  color: red;
+  background: #f4dfde;
+  width: 5rem;
+  border-radius: 5px;
+  padding: 2px;
+  margin-right: 2px;
+}
+.card a .Thread .threads .logo span {
+  padding-right: 2px;
+}
+.newCard {
+  min-height: 5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+.newCard a {
+  display: inline-block;
+  width: 100%;
+  height: 5rem;
+}
+.newCard a .imgOne {
+  float: left;
+  height: 4.5rem;
+  width: 5.7rem;
+}
+.newCard a .imgOne img {
+  width: 100%;
+  height: 100%;
+}
+.newCard a .Description {
+  width: 12.5rem;
+  height: 4.5rem;
+  float: right;
+}
+.newCard a .Description p {
+  font-size: 0.9rem;
+  color: #343434;
+}
+.newCard a .Description .Thread {
+  width: 100%;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  color: #a1a1a1;
+  font-weight: normal;
+}
+.newCard a .Description .Thread .time {
+  padding-left: 0.5rem;
+}
+.newCard a .Description .Thread .addre {
+  float: left;
+}
+.newCard a .Description .Thread .threads {
+  float: right;
+}
+.cardAll {
+  padding: 0.5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+.cardAll h3 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  color: #343434;
+}
+.cardAll .imgOrText {
+  padding-top: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+.cardAll .imgOrText .cardAllImg img {
+  width: 100%;
+  height: 6rem;
+}
+.cardAll .cardAllText {
+  height: 2.5rem;
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #a1a1a1;
+  font-weight: normal;
+  width: 100%;
+}
+.cardAll .cardAllText .time {
+  padding-left: 0.5rem;
+}
+.cardAll .cardAllText span {
+  float: left;
+}
+.cardAll .cardAllText .threads {
+  float: right;
+}

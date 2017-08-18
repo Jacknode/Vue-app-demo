@@ -1,0 +1,202 @@
+a {
+  text-decoration: none;
+}
+header {
+  height: 2.5rem;
+  background: #ea413c;
+  line-height: 2.5rem;
+}
+header span {
+  float: right;
+  padding-right: 1rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
+#formData {
+  height: 4rem;
+  background: #ea413c;
+}
+#formData .login {
+  padding-left: 1rem;
+  float: left;
+  padding-top: 1rem;
+}
+#formData .login a {
+  display: inline-block;
+  padding: 0.25rem 3rem;
+  background: #fff;
+  color: #ea413c;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+}
+#formData .login span {
+  padding-left: 0.25rem;
+  font-size: 0.7rem;
+  color: #fff;
+}
+#formData .Registration {
+  float: right;
+  padding-right: 1rem;
+}
+#formData .Registration span {
+  display: inline-block;
+  color: #fff;
+  padding-top: 1.25rem;
+  font-size: 0.8rem;
+}
+#formData .Registration span i {
+  padding-right: 0.25rem;
+}
+#allLogin {
+  position: relative;
+  color: #fff;
+  font-size: 0.8rem;
+  width: 100%;
+  height: 4rem;
+  z-index: 0;
+  background: #ea413c;
+}
+#allLogin span {
+  text-align: center;
+  width: 32.22%;
+  display: inline-block;
+}
+#allLogin span i {
+  padding-right: 0.25rem;
+}
+#topCard {
+  position: absolute;
+  bottom: -1.5rem;
+  z-index: 11;
+  height: 2.7rem;
+  background: #fff;
+  width: 18rem;
+  line-height: 2.7rem;
+  margin: 0 1rem;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px #eee;
+  border-radius: 0.25rem;
+}
+#topCard span {
+  width: 1px;
+  height: 2rem;
+  margin-top: 0.35rem;
+  background: #eee;
+  display: inline-block;
+}
+#topCard a {
+  vertical-align: top;
+  color: #a9a9a9;
+  width: 8.5rem;
+  text-align: center;
+  display: inline-block;
+}
+#content {
+  background: #f5f5f5;
+  padding: 2.5rem 1rem 1rem 1rem;
+}
+#content .nav {
+  background: #fff;
+  height: 5rem;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px #aaa;
+  border-radius: 0.25rem;
+  border: 1px solid #eee;
+}
+#content .nav .line {
+  display: inline-block;
+  float: left;
+  width: 1px;
+  height: 4rem;
+  margin-top: 0.5rem;
+  background: #e5e5e5;
+}
+#content .nav li {
+  color: #a9a9a9;
+  float: left;
+  width: 4.4rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+#content .nav li i {
+  padding-top: 1.5rem;
+}
+#wrap {
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 18.8rem;
+  bottom: 3.3rem;
+  background: #f6f6f6;
+}
+#wrap .cards {
+  padding: 0.5rem 1rem;
+}
+#wrap .cards .card {
+  margin-bottom: 1rem;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px #aaa;
+  border-radius: 0.25rem;
+  border: 1px solid #eee;
+}
+#wrap .cards .card li {
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #ccc;
+}
+#wrap .cards .card li .cardLeft {
+  float: left;
+  padding-left: 1rem;
+}
+#wrap .cards .card li .cardLeft i {
+  color: #f77541;
+}
+#wrap .cards .card li .cardLeft i.active {
+  color: #fe7144;
+}
+#wrap .cards .card li .cardLeft i.yellow {
+  color: #f3b500;
+}
+#wrap .cards .card li .cardLeft i.blue {
+  color: #5289d5;
+}
+#wrap .cards .card li .cardLeft .night {
+  color: #4e377a;
+}
+#wrap .cards .card li .cardLeft .Purple {
+  color: #4b2559;
+}
+#wrap .cards .card li .cardLeft span {
+  padding-left: 0.5rem;
+}
+#wrap .cards .card li .cardRight {
+  color: #a9a9a9;
+  padding-right: 0.5rem;
+  float: right;
+}
+#wrap .cards .card li .cardRight i {
+  padding-left: 0.25rem;
+}
+#wrap .cards .card li .cardRight span {
+  font-size: 0.6rem;
+}
+#wrap .cards .card li .cardRight span.red {
+  color: red;
+}
+#wrap .cards .card li:last-of-type {
+  border-bottom: none;
+}
+#wrap #list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#wrap #list li {
+  font: 16px/30px "宋体";
+  text-indent: 20px;
+  border-bottom: 1px solid #000;
+}

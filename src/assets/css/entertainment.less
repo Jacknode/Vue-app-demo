@@ -1,0 +1,114 @@
+@r:20rem;
+header{
+  height: 60/@r;
+  background: #ea413c;
+  line-height: 60/@r;
+  padding: 0 20/@r;
+  span{
+    color: #fff;
+    font-weight:normal;
+  }
+}
+#wrap{
+  position: absolute;
+  left: 0;
+  top: 60/@r;
+  bottom: 66/@r;
+  width: 100%;
+  overflow: hidden;
+  .picTab{
+    position: relative;
+    width:20rem;
+    overflow: hidden;
+    .pics{
+      width: 400%;
+      li{
+        float: left;
+        width: 20rem;
+        position: relative;
+        p{
+          position: absolute;
+          bottom: 10/@r;
+          left: 0;
+          width: 100%;
+          color: #fff;
+          text-indent: 20/@r;
+          font-size:17/@r;
+        }
+        img{
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+    #navs{
+      z-index: 22;
+      position: absolute;
+      right: 0;
+      text-align: right;
+      padding-right: 16/@r;
+      bottom: 22/@r;
+      width: 20rem;
+      height: 12px;
+      a{
+        display: inline-block;
+        margin: 0 2/@r;
+        width: 5/@r;
+        height: 5/@r;
+        background: #c9a372;
+        border-radius: 6px;
+        transition: .5s;
+      }
+      a.active{
+        background: #fff;
+        width: 6/@r;
+        height: 6/@r;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+.newCard{
+  min-height: 100/@r;
+  padding: 10/@r;
+  border-bottom: 1px solid #e8e8e8;
+  a{
+    display: inline-block;
+    width: 100%;
+    height: 100/@r;
+    .imgOne{
+      float: left;
+      height: 90/@r;
+      width: 114/@r;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .Description{
+      width: 250/@r;
+      height: 90/@r;
+      float: right;
+      p{
+        font-size:18/@r;
+        color:#343434;
+      }
+      .Thread{
+        width: 100%;
+        padding-top: 20/@r;
+        font-size:16/@r;
+        color: #a1a1a1;
+        font-weight: normal;
+        .time{
+          padding-left: 10/@r;
+        }
+        .addre{
+          float: left;
+        }
+        .threads{
+          float: right;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+}
+em {
+  font-style: normal;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+p,
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+a,
+input {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+body,
+html {
+  position: relative;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+img {
+  vertical-align: top;
+}
+header {
+  height: 3rem;
+  background: #fafafa;
+  line-height: 3rem;
+  padding: 0 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+header .headLeft {
+  line-height: 3rem;
+  float: left;
+  color: #707070;
+}
+header .headRight {
+  line-height: 3rem;
+  float: right;
+  color: #707070;
+}
+#wrap {
+  background: #eee;
+  position: absolute;
+  left: 0;
+  top: 3rem;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+#wrap .scroll .content {
+  background: #f6f6f6;
+  margin: 0;
+  padding: 0 1rem;
+}
+#wrap .scroll .content .title h3 {
+  padding-top: 0.5rem;
+  margin: 0;
+}
+#wrap .scroll .content .times {
+  padding-top: 0.5rem;
+  color: #707070;
+  font-size: 0.5rem;
+}
+#wrap .scroll .content .times .source {
+  padding-left: 0.25rem;
+}
+#wrap .scroll .content .text {
+  padding-top: 1rem;
+  font-weight: normal;
+}
+#wrap .scroll .content .text p {
+  margin-bottom: 1.5rem;
+  text-indent: 1.5rem;
+  line-height: 1.5rem;
+}
+#wrap .scroll .content .text p.active {
+  font-weight: bold;
+}
+#wrap .scroll .content .text .photo {
+  padding-bottom: 1.5rem;
+  height: 12.5rem;
+}
+#wrap .scroll .content .text .photo img {
+  width: 100%;
+  height: 100%;
+}
+#wrap .scroll .content .text span {
+  font-size: 0.5rem;
+}
+#wrap .scroll #Thread {
+  background: #f6f6f6;
+  margin-top: 1rem;
+}
+#wrap .scroll #Thread h4 {
+  font-weight: normal;
+  margin: 0;
+  color: red;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+#wrap .scroll #Thread .threadCard {
+  margin-bottom: 1rem;
+  background: #f9f8e8;
+  border: 1px solid #eee;
+  padding: 0.5rem 0.15rem;
+}
+#wrap .scroll #Thread .threadCard .name {
+  padding-left: 0.25rem;
+  line-height: 1rem;
+  color: #4c9aea;
+  font-size: 0.8rem;
+}
+#wrap .scroll #Thread .threadCard p {
+  padding-left: 0.25rem;
+  font-size: 0.8rem;
+  padding-top: 1rem;
+}
+#wrap #list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#wrap #list li {
+  font: 16px/30px "宋体";
+  text-indent: 20px;
+  border-bottom: 1px solid #000;
+}

@@ -1,0 +1,123 @@
+@r:20rem;
+input,textarea{margin:0;padding:0;border:none; outline:none;}
+textarea{ resize:none; overflow:auto;}
+em{ font-style:normal;}
+ul{margin:0;padding:0; list-style:none;}
+h1,p,h2{margin:0; font-weight:normal;}
+a,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+img{ border:none; vertical-align:top;}
+body,
+html {
+  position: relative;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+img{
+  vertical-align: top;
+}
+header{
+	height: 60/@r;
+	background: #fafafa;
+	line-height: 60/@r;
+	padding: 0 20/@r;
+	border-bottom: 1px solid #e6e6e6;
+	.headLeft{
+		line-height: 60/@r;
+		float: left;
+		color: #707070;
+	}
+	.headRight{
+		line-height: 60/@r;
+		float: right;
+		color: #707070;
+	}
+}
+#wrap{
+	background: #eee;
+	position: absolute;
+	left: 0;
+	top: 60/@r;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	.scroll{
+		.content{
+			background: #f6f6f6;
+			margin: 0;
+			padding: 0 20/@r;
+			.title h3{
+				padding-top: 10/@r;
+				margin: 0;
+			}
+			.times{
+				padding-top: 10/@r;
+				color: #707070;
+				font-size: 10/@r;
+				.source{
+					padding-left: 5/@r;
+				}
+			}
+			.text{
+				padding-top: 20/@r;
+				font-weight: normal;
+				p{
+					margin-bottom: 30/@r;
+					text-indent: 30/@r;
+					line-height: 30/@r;
+				}
+				p.active{
+					font-weight: bold;
+				}
+				.photo{
+					padding-bottom: 30/@r;
+					height: 250/@r;
+					img{
+						width: 100%;
+						height: 100%;
+					}
+				}
+				span{
+					font-size: 10/@r;
+				}
+			}
+		}
+		#Thread{
+			background: #f6f6f6;
+			margin-top: 20/@r;
+			h4{
+				font-weight: normal;
+				margin: 0;
+				color: red;
+				padding: 10/@r 0 10/@r 20/@r;
+			}
+			.threadCard{
+				margin-bottom: 20/@r;
+				background: #f9f8e8;
+				border:1px solid #eee;
+				padding: 10/@r 3/@r;
+				.name{
+					padding-left: 5/@r;
+					line-height: 20/@r;
+					color: #4c9aea;
+					font-size: 16/@r;
+				}
+				p{
+					padding-left: 5/@r;
+					font-size: 16/@r;
+					padding-top: 20/@r
+				}
+			}
+		}
+	}
+	#list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	li{
+		font: 16px/30px "宋体";
+		text-indent: 20px;
+		border-bottom: 1px solid #000;
+		}
+	}
+}

@@ -1,0 +1,312 @@
+header {
+  height: 3rem;
+  background: #ea413c;
+  line-height: 3rem;
+  padding: 0 1rem;
+}
+header span {
+  float: left;
+  color: #fff;
+  font-weight: normal;
+}
+header a{
+  float: right;
+}
+#wrap {
+  position: absolute;
+  left: 0;
+  top: 3rem;
+  bottom: 3.3rem;
+  width: 100%;
+  overflow: hidden;
+}
+#wrap .picTab {
+  position: relative;
+  width: 20rem;
+  overflow: hidden;
+}
+#wrap .picTab .pics {
+  width: 400%;
+}
+#wrap .picTab .pics li {
+  float: left;
+  width: 20rem;
+  position: relative;
+}
+#wrap .picTab .pics li p {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-indent: 1rem;
+  font-size: 0.85rem;
+}
+#wrap .picTab .pics li img {
+  width: 100%;
+  display: block;
+}
+#wrap .picTab #navs {
+  z-index: 22;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  padding-right: 0.8rem;
+  bottom: 1.1rem;
+  width: 20rem;
+  height: 12px;
+}
+#wrap .picTab #navs a {
+  display: inline-block;
+  margin: 0 0.1rem;
+  width: 0.25rem;
+  height: 0.25rem;
+  background: #c9a372;
+  border-radius: 6px;
+  transition: .5s;
+}
+#wrap .picTab #navs a.active {
+  background: #fff;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 6px;
+}
+.newCard {
+  background: #fff;
+  min-height: 5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+.newCard a {
+  display: inline-block;
+  width: 100%;
+  height: 5rem;
+}
+.newCard a .imgOne {
+  float: left;
+  height: 4.5rem;
+  width: 5.7rem;
+}
+.newCard a .imgOne img {
+  width: 100%;
+  height: 100%;
+}
+.newCard a .Description {
+  width: 12.5rem;
+  height: 4.5rem;
+  float: right;
+}
+.newCard a .Description p {
+  font-size: 0.9rem;
+  color: #343434;
+}
+.newCard a .Description .Thread {
+  width: 100%;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  color: #a1a1a1;
+  font-weight: normal;
+}
+.newCard a .Description .Thread .time {
+  padding-left: 0.5rem;
+}
+.newCard a .Description .Thread .addre {
+  float: left;
+}
+.newCard a .Description .Thread .threads {
+  float: right;
+}
+.newCard:nth-of-type(1) {
+  margin-bottom: 0.4rem;
+}
+.head {
+  height: 2rem;
+  line-height: 2rem;
+  background: #fff;
+  padding-left: 0.65rem;
+}
+.head h4 {
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.head h4 i {
+  color: red;
+  padding-right: 0.5rem;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  background: #fff;
+  padding: 0.5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+.card a {
+  display: inline-block;
+  width: 20rem;
+}
+.card a h3 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #343434;
+}
+.card a .imgs {
+  height: 4.5rem;
+}
+.card a .imgs img {
+  margin-left: 0.5rem;
+  float: left;
+  height: 4.5rem;
+  width: 5.7rem;
+}
+.card a .Thread {
+  height: 1.5rem;
+  padding-top: 0.3rem;
+  font-size: 0.8rem;
+  color: #a1a1a1;
+}
+.card a .Thread .addre {
+  float: left;
+  padding-left: 0.5rem;
+}
+.card a .Thread .threads {
+  padding-right: 1.5rem;
+  text-align: right;
+  width: 6.5rem;
+  float: right;
+}
+.card a .Thread .threads .logo {
+  color: red;
+  background: #f4dfde;
+  width: 5rem;
+  border-radius: 5px;
+  padding: 2px;
+  margin-right: 2px;
+}
+.card a .Thread .threads .logo span {
+  padding-right: 2px;
+}
+.demo {
+  background: #fff;
+  min-height: 5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+.demo a {
+  display: inline-block;
+  width: 100%;
+  height: 5rem;
+}
+.demo a .left {
+  width: 5.7rem;
+  float: left;
+}
+.demo a .left img {
+  width: 100%;
+  height: 5rem;
+}
+.demo a .Description {
+  width: 12.5rem;
+  height: 4.5rem;
+  float: right;
+}
+.demo a .Description p {
+  font-size: 0.9rem;
+  color: #343434;
+}
+.demo a .Description .Thread {
+  width: 100%;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  color: #a1a1a1;
+  font-weight: normal;
+}
+.demo a .Description .Thread .time {
+  padding-left: 0.5rem;
+}
+.demo a .Description .Thread .addre {
+  float: left;
+}
+.demo a .Description .Thread .threads {
+  float: right;
+}
+.Subscription {
+  width: 100%;
+  height: 4rem;
+  background: #fff;
+  box-sizing: border-box;
+}
+.Subscription li {
+  float: left;
+  width: 9.8rem;
+  height: 100%;
+  text-align: center;
+}
+.Subscription li .icon {
+  padding-top: 1.2rem;
+  padding-left: 1.5rem;
+}
+.Subscription li span {
+  float: left;
+}
+.Subscription li .text {
+  padding-top: 0.95rem;
+  padding-left: 0.5rem;
+  text-align: left;
+  float: left;
+}
+.Subscription li .text span {
+  font-size: 0.7rem;
+}
+.Subscription li .text p {
+  font-size: 0.6rem;
+}
+.Subscription .line {
+  margin-top: 0.75rem;
+  display: inline-block;
+  float: left;
+  width: 1px;
+  height: 1.5rem;
+  background: #e4e4e4;
+}
+.img {
+  position: relative;
+  height: 8rem;
+  margin-bottom: 0.5rem;
+}
+.img .title {
+  display: inline-block;
+  position: absolute;
+  bottom: 0.25rem;
+  padding-left: 0.5rem;
+  left: 0;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.img .num {
+  position: absolute;
+  left: 2.5rem;
+  bottom: 1.5rem;
+  font-size: 0.6rem;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.05rem 0.1rem;
+}
+.img .zhibo {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 0.5rem;
+  font-size: 0.8rem;
+  color: #fff;
+  padding: 0.05rem 0.1rem;
+  border-radius: 0.25rem;
+  background: #f60;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
