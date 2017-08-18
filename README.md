@@ -12,12 +12,14 @@
 vue2 + vuex + vue-router + webpack + ES6/7  + less + axios
 
 # 克隆到本地
-git clone https://github.com/Jacknode/Vue-app.git
+```
+git clone https://github.com/Jacknode/Vue-app-demo.git
+```
 
 # 安装依赖
 npm install
 
-# 开启本地服务器localhost:8088
+# 开启本地服务器localhost:8080
 npm run dev
 
 # 发布环境
