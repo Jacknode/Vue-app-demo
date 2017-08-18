@@ -1,4 +1,4 @@
-说明
+# 说明
 
 一个vue2 + vuex + vue-router的网易app简单项目，整个流程一目了然，内容虽少，五脏俱全，适合作为入门练习。
 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^_^
@@ -25,8 +25,9 @@ npm run build
 
 
 
-路由配置
+# 路由配置
 
+```
 //整个项目的路由设置
 import Home from './components/Home.vue'
 import Live from './components/Live.vue'
@@ -95,8 +96,10 @@ export default[
     }
 
 ]
-配置actions
+```
+# 配置actions
 
+```
 export default {
     hideHeader({
             commit
@@ -130,9 +133,11 @@ export default {
         }
         
 }
-mutations
+```
+# mutations
 
 
+```
 import getters from './getters'
 const  state = {
     //首页home的数据
@@ -237,8 +242,10 @@ export default {
     getters,
     mutations
 }
-创建store
+```
+# 创建store
 
+```
 import Vue from 'vue'
 import Vuex from 'vuex'
 import actions from './actions'
@@ -253,8 +260,10 @@ export default new Vuex.Store({
     },
     actions,
 })
-创建vue实例和axios的一些相关配置
+```
+# 创建vue实例和axios的一些相关配置
 
+```
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
@@ -301,3 +310,4 @@ new Vue({
     store,
   render: h => h(App)
 });
+```
